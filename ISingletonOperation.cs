@@ -1,7 +1,4 @@
 namespace dotnet_di
 {
-    public interface ISingletonOperation : IOperation
-    {
-
-    }
+    public interface ISingletonOperation : IOperation { }
 }

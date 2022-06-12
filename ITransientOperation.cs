@@ -1,7 +1,4 @@
 namespace dotnet_di
 {
-    public interface ITransientOperation : IOperation
-    {
-
-    }
+    public interface ITransientOperation : IOperation { }
 }

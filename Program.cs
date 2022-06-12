@@ -1,9 +1,6 @@
-﻿
-
-using dotnet_di;
+﻿using dotnet_di;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices((_, services) => services
